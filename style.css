@@ -11,7 +11,7 @@ h1{
 .orange-color{
 color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 margin-bottom: 100px;
 
@@ -41,4 +41,32 @@ background-repeat: no-repeat;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
+}
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px green;
+    }
+#stu-web-devlop{
+   border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-devlop{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
