@@ -13,6 +13,8 @@ color: orange;
 }
 section{
     display: flex;
+margin-bottom: 100px;
+
 }
 .halr-width{
     width: 50%;
@@ -36,4 +38,7 @@ background-repeat: no-repeat;
 
 
 
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
 }
